@@ -1,0 +1,23 @@
+.header-component {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  background-color: #FEC5BB;
+  height: 60px;
+  /* color: #ffffff; */
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  height: 100px;
+  align-items: center;
+}
+
+.header-component > div {
+  display: inline-block;
+  margin: auto;
+}
+
+.nav-logo {
+  color: inherit;
+  text-decoration: unset;
+}
